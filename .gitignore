@@ -1,0 +1,30 @@
+#
+# .gitignore file - Ignore everything and recursive allow them.
+#
+
+#
+# Ignore everything.
+#
+*
+
+#
+# Recursive allow.
+#
+!.gitignore
+!README.md
+!docker-compose.yml
+!configs
+!README.ssl-certs.md
+!configs/certs/
+!configs/certs/wikijs.mydomain.com.crt
+!configs/certs/wikijs.mydomain.com.key
+!configs/certs/README.md
+!configs/automatic-backup/
+!configs/automatic-backup/wikijs-deployment-backup.*
+!configs/automatic-backup/README.md
+!configs/nginx/
+!configs/nginx/default.conf
+!configs/additional-configs.md
+!configs/backup-and-restore.md
+!configs/gitlab-authentication-support.md
+!configs/upgrading-wikijs.md

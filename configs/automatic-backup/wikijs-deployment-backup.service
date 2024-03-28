@@ -1,0 +1,5 @@
+[Unit]
+Description=WikiJS Deployment Backup
+
+[Service]
+ExecStart=/usr/bin/wikijs-deployment-backup.sh
